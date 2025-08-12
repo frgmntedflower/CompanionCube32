@@ -1,0 +1,1 @@
+.\g++ -static -static-libgcc -static-libstdc++ -o cc-injector.exe D:\dev\CompanionCube32\cc-inject\main.cpp -luser32
