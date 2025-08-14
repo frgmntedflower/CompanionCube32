@@ -1,0 +1,3 @@
+D:/dev/CompanionCube32/cc-trainer/cmake-build-debug/CMakeFiles/cc_trainer.dir
+D:/dev/CompanionCube32/cc-trainer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/dev/CompanionCube32/cc-trainer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

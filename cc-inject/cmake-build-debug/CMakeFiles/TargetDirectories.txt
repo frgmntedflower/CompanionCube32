@@ -1,0 +1,3 @@
+D:/dev/CompanionCube32/cc-inject/cmake-build-debug/CMakeFiles/cc_inject.dir
+D:/dev/CompanionCube32/cc-inject/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/dev/CompanionCube32/cc-inject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

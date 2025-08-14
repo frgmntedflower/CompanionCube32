@@ -11,25 +11,35 @@ add_library(cc_trainer SHARED
         lib/imgui/imgui_tables.cpp
         lib/imgui/imgui_widgets.cpp
         lib/imgui/backends/imgui_impl_win32.cpp
-        lib/imgui/backends/imgui_impl_dx11.cpp
+        lib/imgui/backends/imgui_impl_dx9.cpp
+        lib/minhook/src/buffer.c
+        lib/minhook/src/hook.c
+        lib/minhook/src/trampoline.c
+        lib/minhook/src/hde/hde32.c
 )
 
-target_include_directories(cc_trainer
-        PRIVATE
+target_include_directories(cc_trainer PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/src
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/imgui
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/imgui/backends
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/minhook/include
 )
 
-target_compile_definitions(cc_trainer PRIVATE CC_TRAINER_EXPORTS)
+if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    target_compile_options(cc_trainer PRIVATE
+            -static-libgcc
+            -static-libstdc++
+            -mthreads
+    )
+    target_link_options(cc_trainer PRIVATE
+            -static-libgcc
+            -static-libstdc++
+            -static
+    )
+endif()
 
-# Link system libraries
-target_link_libraries(cc_trainer
-        PRIVATE
-        d3d11
-        dxgi
-        d3dcompiler
-        dwmapi
+target_link_libraries(cc_trainer PUBLIC
         user32
-        gdi32
+        d3d9
+        dwmapi
 )

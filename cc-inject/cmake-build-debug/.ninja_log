@@ -1,0 +1,7 @@
+# ninja log v6
+4	1453	7769001831070806	CMakeFiles/cc_inject.dir/main.cpp.obj	b912eb3bf867a49f
+1454	1682	7769001845560463	cc_inject.exe	60b8d2776f3740a2
+7	326	7769002336365760	build.ninja	a54a4ad2d839d68f
+7	326	7769002336335375	D:/dev/CompanionCube32/cc-inject/cmake-build-debug/cmake_install.cmake	a54a4ad2d839d68f
+11	2476	7769002342102475	CMakeFiles/cc_inject.dir/main.cpp.obj	44485fc462fcf778
+2480	2744	7769002366786167	cc_inject.exe	579af308d459dff1

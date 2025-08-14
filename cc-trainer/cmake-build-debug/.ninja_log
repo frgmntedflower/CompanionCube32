@@ -1,0 +1,16 @@
+# ninja log v6
+33	671	7768797187649299	CMakeFiles/cc_trainer.dir/lib/minhook/src/buffer.c.obj	e69b441776183392
+10	2734	7768797187418696	CMakeFiles/cc_trainer.dir/lib/imgui/imgui.cpp.obj	285066b30726143
+18	1228	7768797187494471	CMakeFiles/cc_trainer.dir/lib/imgui/imgui_tables.cpp.obj	4ac2a6f7d3824a10
+46	699	7768797187780957	CMakeFiles/cc_trainer.dir/lib/minhook/src/hde/hde32.c.obj	2bae362fba9e0557
+41	693	7768797187730949	CMakeFiles/cc_trainer.dir/lib/minhook/src/trampoline.c.obj	c6240975003b5a81
+37	726	7768797187685025	CMakeFiles/cc_trainer.dir/lib/minhook/src/hook.c.obj	3ef7a8ac6c52518d
+25	946	7768797187565659	CMakeFiles/cc_trainer.dir/lib/imgui/backends/imgui_impl_win32.cpp.obj	8e0a5cd0ce406fe4
+29	1001	7768797187608208	CMakeFiles/cc_trainer.dir/lib/imgui/backends/imgui_impl_dx9.cpp.obj	fa25b1a470f8f24b
+5	587	7768938733402469	CMakeFiles/cc_trainer.dir/src/main.cpp.obj	34fd1f5238d781af
+14	1909	7768797187448710	CMakeFiles/cc_trainer.dir/lib/imgui/imgui_draw.cpp.obj	12e8a74c4b1d40d4
+21	2140	7768797187525070	CMakeFiles/cc_trainer.dir/lib/imgui/imgui_widgets.cpp.obj	c9e170cc9429d960
+588	891	7768938742164652	libcc_trainer.dll	aa164586acccfa78
+588	891	7768938742164652	libcc_trainer.dll.a	aa164586acccfa78
+4	332	7769002336410896	build.ninja	b21fcce821dc7308
+4	332	7769002336385811	D:/dev/CompanionCube32/cc-trainer/cmake-build-debug/cmake_install.cmake	b21fcce821dc7308
