@@ -1,0 +1,1 @@
+.\g++.exe -shared -o cc-trainer.dll D:\dev\CompanionCube32\cc-trainer\src\main.cpp -luser32

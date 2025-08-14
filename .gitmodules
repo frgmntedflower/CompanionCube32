@@ -1,0 +1,3 @@
+[submodule "cc-trainer/lib/imgui"]
+	path = cc-trainer/lib/imgui
+	url = git@github.com:ocornut/imgui.git
